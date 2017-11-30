@@ -27,6 +27,7 @@ module.exports = function(context, options) {
       require('babel-preset-env').default(null, {
         debug: debug,
         exclude: [
+          asyncFunctions === false ? 'babel-plugin-syntax-async-functions' : null,
           asyncFunctions === false ? 'transform-async-to-generator' : null,
           asyncFunctions === false ? 'transform-regenerator' : null,
         ].filter(Boolean),
