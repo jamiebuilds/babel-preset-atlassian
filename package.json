@@ -1,0 +1,21 @@
+{
+  "name": "babel-preset-atlassian",
+  "version": "0.0.0",
+  "description": "Babel Preset for Atlassian",
+  "main": "index.js",
+  "repository": "https://github.com/atlassian/babel-preset-atlassian",
+  "author": "Atlassian Pty Ltd",
+  "license": "Apache-2.0",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
