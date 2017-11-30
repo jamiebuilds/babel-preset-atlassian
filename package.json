@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-atlassian",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Babel Preset for Atlassian",
   "main": "index.js",
   "repository": "https://github.com/atlassian/babel-preset-atlassian",
